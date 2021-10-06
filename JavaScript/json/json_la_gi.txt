@@ -1,0 +1,13 @@
+Là một định dạng dữ liệu (chuỗi)
+JavaScript Object Notation
+JSON: Number, Boolean, Null, Array, Object, String
+
+Mã hóa / Giải mã 
+Encode / Decode
+Stringify: từ JS type -> JSON 
+Parse từ JSON -> JS type
+
+Dùng nháy kép ngăn cách dạng chuỗi
+
+Promise(async, sync)
+Async: setTimeout, setInterval, fetch, XMLhttprequest, reading file, request animation (viết mã trước thì nó không show trước đâu)

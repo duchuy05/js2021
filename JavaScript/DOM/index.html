@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .list {
+            display: none;
+        }
+        
+        .show:focus ~ .list {
+            display: block;
+        }
+        
+    </style>
+</head>
+
+    <h1 id = "hello">Hello World</h1> 
+
+    <button class = "btn1" data-color="green">Green</button>
+    <button class = "btn1" data-color="red">Red</button>
+    <button class = "btn1" data-color="blue">Blue</button>
+
+    <h2 id = "h2">0</h2>
+    <button id = "btn2" onclick="count()">Count</button>
+
+    <h1>Tasks</h1>
+
+    <ul id="tasks">
+
+    </ul>
+    <form action="">
+        <input type="text" id="task" placeholder="New task">
+        <input id = "submit" type="submit">
+    </form>
+
+    <style>
+        .blue {
+            color: blue;
+        }
+        .red {
+            color: red;
+        }
+    </style>
+
+    <div class="box box-2">ClassList</div>
+
+    <a href="https://f8.edu.vn">F8</a> <br>
+    <a href="https://google.com.vn">Search</a>
+    <br>
+
+    <input class="show" type="text" placeholder="Search">
+    <ul class="list">
+        <li>Javascirpt</li>
+        <li>C</li>
+        <li>Python</li>
+    </ul>
+    
+</body>
+<script src="./main.js"></script>
+
+</html>
